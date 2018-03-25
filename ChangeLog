@@ -1,5 +1,18 @@
 2018-03-25  Minsheng Liu  <lambda@liu.ms>
 
+  Set Fish as default shell after installation.
+
+  Add Fish to shell list and set it as a default shell.
+
+  The operation requires passwords. Since the script is often executed
+  in the background, an audio message is played to notify the user.
+
+    modified:   ChangeLog
+    modified:   bootstrap.sh
+
+
+2018-03-25  Minsheng Liu  <lambda@liu.ms>
+
   Add "trackpad.sh"
 
   Setup TrackPad settings and gesture-related Dock settings.

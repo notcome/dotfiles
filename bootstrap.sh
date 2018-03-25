@@ -1,4 +1,4 @@
-#! /usr/bin/env bash
+#!/usr/bin/env bash
 
 if [ `uname -s` != "Darwin" ]; then
   echo "Error: expected to run on macOS."
@@ -9,6 +9,8 @@ which -s brew
 if [[ $? != 0 ]] ; then
   echo "Homebrew not installed."
   echo "Installing Homebrew..."
+
+  say -v Ting-Ting "需要输入密码"
 
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 else
@@ -23,6 +25,14 @@ if [[ $? != 0 ]] ; then
   echo "Installing Fish..."
 
   brew install fish
+
+  echo "Changing default shell to Fish..."
+
+  say -v Ting-Ting "需要输入密码"
+
+  sudo sh -c "echo /usr/local/bin/fish >> /etc/shells"
+  chsc -s /usr/local/bin/fish
+
 else
   echo "Fish already installed. Try to upgrade."
 

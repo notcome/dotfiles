@@ -1,5 +1,15 @@
 2018-03-25  Minsheng Liu  <lambda@liu.ms>
 
+  Add "trackpad.sh"
+
+  Setup TrackPad settings and gesture-related Dock settings.
+
+    modified:   ChangeLog
+    new file:   trackpad.sh
+
+
+2018-03-25  Minsheng Liu  <lambda@liu.ms>
+
   Add "bootstrap.sh"
 
   Most tools in this repo are expected to be written in Fish and Haskell

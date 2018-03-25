@@ -1,0 +1,20 @@
+2018-03-25  Minsheng Liu  <lambda@liu.ms>
+
+  Add "bootstrap.sh"
+
+  Most tools in this repo are expected to be written in Fish and Haskell
+  (via Turtle). The bootstrap script set ups the required environment. It
+
+  * installs Homebrew,
+    * Xcode command line tools are automatically installed during the process.
+  * installs Fish via Homebrew,
+  * installs Stack.
+    * We will delay "stack setup" until first Haskell package is used.
+      This could give us better control over which LTS is used.
+      In the future, we can specify a LTS file in the repo.
+
+    new file:   ChangeLog
+    new file:   bootstrap.sh
+
+  [Fish]: http://fishshell.com
+  [Turtle]: https://hackage.haskell.org/package/turtle

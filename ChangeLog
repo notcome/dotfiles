@@ -13,6 +13,10 @@
   After installing Sublime Text, we manually install Package Control.
   Preferences for Sublime Text are synced via Mackup.
 
+    modified:   ChangeLog
+    new file:   install-desktop-apps.sh
+    new file:   config/.mackup.cfg
+
 
 2018-03-25  Minsheng Liu  <lambda@liu.ms>
 

@@ -1,5 +1,21 @@
 2018-03-25  Minsheng Liu  <lambda@liu.ms>
 
+  Use Homebrew Cask to install Desktop Apps.
+
+  The list of installed apps:
+
+  * Sublime Text
+  * Spectacle
+  * Google Chrome
+  * Firefox
+  * Docker
+
+  After installing Sublime Text, we manually install Package Control.
+  Preferences for Sublime Text are synced via Mackup.
+
+
+2018-03-25  Minsheng Liu  <lambda@liu.ms>
+
   Set Fish as default shell after installation.
 
   Add Fish to shell list and set it as a default shell.

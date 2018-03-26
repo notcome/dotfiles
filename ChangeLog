@@ -1,5 +1,14 @@
 2018-03-25  Minsheng Liu  <lambda@liu.ms>
 
+  Use "/usr/bin/env fish" as shebang.
+
+  This allows better compatibility for different Fish installation.
+
+    modified:   trackpad.sh
+
+
+2018-03-25  Minsheng Liu  <lambda@liu.ms>
+
   Use Homebrew Cask to install Desktop Apps.
 
   The list of installed apps:

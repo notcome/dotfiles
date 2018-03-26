@@ -1,4 +1,4 @@
-#!/usr/local/bin/fish
+#!/usr/bin/env fish
 
 # Most trackpad setup scripts, while enabling three finger dragging, do not
 # take into account other multi-finger gestures like Mission Control and

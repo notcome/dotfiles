@@ -1,3 +1,19 @@
+2018-03-26  Minsheng Liu  <lambda@liu.ms>
+
+  Remove all Dock persistent apps and update date format.
+
+  It is achieved via writing defaults.
+
+    new file:   ui.sh
+
+  A note. Originally I used "dockutil" to obtain a list of persistent apps.
+  Unfortunately, I could not get any app whose name contains Chinese, which is
+  troublesome if the system language is set to Simplified Chinese.
+  The issue seems to be Python-related: if you execute "dockutil" directly
+  in Terminal, everything is fine; if you stream the result, however,
+  all lines containing Chinese will be stripped away.
+
+
 2018-03-25  Minsheng Liu  <lambda@liu.ms>
 
   Use "/usr/bin/env fish" as shebang.
